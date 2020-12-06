@@ -8,5 +8,6 @@ meta:
 version: 1
 rules:
   - expected: Web
+    pattern: /\bWeb\b/i
   - expected: superset
     pattern:  super set

@@ -1,0 +1,18 @@
+meta:
+  reviewer:
+    - nimon-2AC
+
+rules:
+  - expected: いま
+    pattern:
+      - /(昨)?今(?!回|度|後)/
+      - 今
+  - expected: つたえる
+    pattern: 伝える
+  - expected: 分かり
+    pattern: わかり
+  - expected: よい
+    pattern: 良い
+  - expected: ソースコード
+    pattern: /(?!テスト)コード/
+    prh: コードでは一般的すぎるからどんなコードかを明示するべきだと思う．
